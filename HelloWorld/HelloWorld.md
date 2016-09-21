@@ -8,7 +8,9 @@ on this page you can see a command to execute in oder to get your wsk CLI to poi
 
 
 ## Invoke Actions
-To create an action `wsk action create hello hello.js` where `hello` is the name of the action, and `hello.js` is the JS file contained in this repo.
+To create an action
+    `wsk action create hello hello.js`
+where `hello` is the name of the action, and `hello.js` is the JS file contained in this repo.
 
 To invoke the action: `wsk action invoke hello`
 but the output is going to look like
